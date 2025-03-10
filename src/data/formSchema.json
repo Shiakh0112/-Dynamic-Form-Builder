@@ -1,0 +1,53 @@
+{
+  "title": "User Information",
+  "fields": [
+    {
+      "label": "Full Name",
+      "type": "text",
+      "name": "fullName",
+      "required": true
+    },
+    {
+      "label": "Email Address",
+      "type": "email",
+      "name": "email",
+      "required": true
+    },
+    {
+      "label": "Phone Number",
+      "type": "text",
+      "name": "phone"
+    },
+    {
+      "label": "Gender",
+      "type": "select",
+      "name": "gender",
+      "options": ["Male", "Female", "Other"]
+    },
+    {
+      "label": "Skills",
+      "type": "checkbox",
+      "name": "skills",
+      "options": ["React", "Node.js", "Python", "Tailwind"]
+    },
+    {
+      "label": "Education",
+      "type": "section",
+      "name": "education",
+      "fields": [
+        {
+          "label": "Degree",
+          "type": "text",
+          "name": "degree",
+          "required": true
+        },
+        {
+          "label": "University",
+          "type": "text",
+          "name": "university",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
